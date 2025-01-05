@@ -1,0 +1,12 @@
+[2025-01-05 08:48:38] ERROR: Error in opening statement: 'Game' object has no attribute 'prompt_manager'
+[2025-01-05 08:58:56] ERROR: Error in opening statement: Prompt type 'opening_statement' not defined.
+[2025-01-05 09:01:31] ERROR: Error in opening statement: Prompt type 'opening_statement' not defined.
+[2025-01-05 09:06:24] ERROR: Error in opening statement: Prompt type 'opening_statement' not defined.
+[2025-01-05 09:13:17] ERROR: Error in opening statement: Prompt type 'opening_statement' not defined.
+[2025-01-05 09:14:59] ERROR: Error in opening statement: Prompt type 'opening_statement' not defined.
+[2025-01-05 10:17:59] ERROR: Error in opening statement: Missing required context key for opening_statement: 'role'
+[2025-01-05 10:18:04] ERROR: Error in opening statement: Missing required context key for opening_statement: 'role'
+[2025-01-05 10:20:54] ERROR: Error in opening statement: Missing required context key for opening_statement: 'case_type'
+[2025-01-05 10:21:16] ERROR: Error in opening statement: name 'random' is not defined
+[2025-01-05 10:22:16] ERROR: Error in opening statement: name 'random' is not defined
+[2025-01-05 10:24:31] ERROR: Error in opening statement: name 'random' is not defined

@@ -1,0 +1,29 @@
+{
+    "templates": [
+        {
+            "name": "Calm and Calculated",
+            "personalities": ["Calm", "Calculated", "Honest"],
+            "base_stress": 3
+        },
+        {
+            "name": "Nervous and Defensive",
+            "personalities": ["Nervous", "Defensive", "Evasive"],
+            "base_stress": 5
+        },
+        {
+            "name": "Calm and Cooperative",
+            "personalities": ["Calm", "Cooperative"],
+            "base_stress": 2
+        },
+        {
+            "name": "Nervous and Aggressive",
+            "personalities": ["Nervous", "Aggressive", "Deceitful"],
+            "base_stress": 6
+        },
+        {
+            "name": "Evasive Witness",
+            "personalities": ["Evasive", "Deceitful"],
+            "base_stress": 4
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "gemini_api_key": "AIzaSyBZcOCvSMiQJXYXjMhajta7qg1CB-9BVCw",
+  "template_paths": {
+    "case_templates": "templates/case_templates.json",
+    "evidence_templates": "templates/evidence_templates.json",
+    "witness_templates": "templates/witness_templates.json",
+    "prompt_templates": "templates/prompt_templates.json"
+  },
+  "max_tokens": 8192,
+  "log_level": "INFO"
+}

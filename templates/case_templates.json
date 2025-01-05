@@ -1,0 +1,58 @@
+{
+    "templates": [
+        {
+            "type": "white_collar",
+            "title_prefix": "The High-Stakes ",
+            "title_suffix": "Embezzlement",
+            "summary": "An executive at TechCorp is accused of embezzling funds over a period of time.",
+            "evidence_templates": ["Financial Records", "Email Communications", "Surveillance Footage", "Fingerprint Report"],
+            "witness_data": {
+                "possible_roles": ["Senior Employee", "Security Manager", "IT Specialist", "Accountant"],
+                "possible_achievements": ["led a major project successfully", "received an employee of the month award", "implemented a new security protocol", "streamlined financial reporting processes"],
+                "possible_suspicious_activities": ["unusual financial transactions", "late-night work sessions", "inconsistent access logs", "suspicious email communications"],
+                "possible_responsibilities": ["monitoring access points", "overseeing financial audits", "maintaining IT infrastructure", "managing employee relations"],
+                "possible_security_records": ["maintained a spotless security record", "has had minor infractions", "recently received a commendation", "is new to the role and still adapting"]
+            },
+            "case_specific_traits": {
+                "financial_complexity": 3,
+                "technological_element": true,
+                "public_interest": 2
+            },
+            "difficulty_modifiers": {
+                "evidence_authentication": 1.2,
+                "witness_reliability": 0.8
+            },
+            "special_conditions": ["media_attention"],
+            "num_witnesses": 2,
+            "num_evidence": 4,
+            "complexity": 3
+        },
+        {
+            "type": "theft",
+            "title_prefix": "The ",
+            "title_suffix": "Burglary",
+            "summary": "A series of burglaries have occurred at TechCorp premises, with valuable electronics stolen.",
+            "evidence_templates": ["Security Logs", "Witness Statements", "Physical Evidence", "Alibi Confirmation"],
+            "witness_data": {
+                "possible_roles": ["Security Guard", "Janitor", "Employee", "Delivery Driver"],
+                "possible_achievements": ["received a commendation for bravery", "was recognized for good attendance", "completed a security training course", "has a good record of timely deliveries"],
+                "possible_suspicious_activities": ["being seen near the crime scene", "unexplained absences", "unusual behavior", "suspicious packages"],
+                "possible_responsibilities": ["patrolling the premises", "cleaning the offices", "working in the IT department", "delivering packages"],
+                "possible_security_records": ["has a clean record", "had a previous security violation", "is new to the job", "has been questioned before"]
+            },
+            "case_specific_traits": {
+                "physical_evidence_complexity": 2,
+                "witness_credibility_issue": true,
+                "public_interest": 1
+            },
+            "difficulty_modifiers": {
+                "evidence_authentication": 1.0,
+                "witness_reliability": 0.9
+            },
+            "special_conditions": ["time_sensitive"],
+            "num_witnesses": 3,
+            "num_evidence": 5,
+            "complexity": 2
+        }
+    ]
+}

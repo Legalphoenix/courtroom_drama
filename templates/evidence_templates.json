@@ -1,0 +1,68 @@
+{
+    "templates": [
+        {
+            "name": "Financial Records",
+            "type": "Digital",
+            "subtype": "Financial",
+            "description": "Detailed financial transactions of the defendant.",
+            "impact_metric": 2,
+            "synergy": ["Email Communications"]
+        },
+        {
+            "name": "Email Communications",
+            "type": "Digital",
+            "subtype": "Communication",
+            "description": "Emails between the defendant and accomplices.",
+            "impact_metric": 2,
+            "synergy": ["Financial Records"]
+        },
+        {
+            "name": "Surveillance Footage",
+            "type": "Physical",
+            "subtype": "Video",
+            "description": "Video footage from the company lobby.",
+            "impact_metric": 3,
+            "synergy": ["Witness Statements"]
+        },
+        {
+            "name": "Fingerprint Report",
+            "type": "Physical",
+            "subtype": "Forensic",
+            "description": "Fingerprint analysis from the crime scene.",
+            "impact_metric": 3,
+            "synergy": []
+        },
+        {
+            "name": "Security Logs",
+            "type": "Digital",
+            "subtype": "Forensic",
+            "description": "Access logs from the company's security system.",
+            "impact_metric": 2,
+            "synergy": ["Surveillance Footage"]
+        },
+        {
+            "name": "Witness Statements",
+            "type": "Testimonial",
+            "subtype": "Character",
+            "description": "Statements from multiple employees.",
+            "impact_metric": 2,
+            "synergy": ["Surveillance Footage"]
+        },
+        {
+            "name": "Physical Evidence",
+            "type": "Physical",
+            "subtype": "Forensic",
+            "description": "Recovered stolen items from the defendant's vehicle.",
+            "impact_metric": 3,
+            "synergy": []
+        },
+        {
+            "name": "Alibi Confirmation",
+            "type": "Testimonial",
+            "subtype": "Character",
+            "description": "Statements confirming the defendant's whereabouts during the crime.",
+            "impact_metric": 1,
+            "synergy": []
+        }
+    ]
+}
